@@ -53,8 +53,8 @@ ENV=`$WHICH env`
 ################################################################################
 usage=0
 
-valgrind_error=0
-valgrind_leak=0
+valgrind_error=1
+valgrind_leak=1
 ltrace=0
 
 force_diff=0
